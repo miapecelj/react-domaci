@@ -1,12 +1,15 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-import { homeObjOne, homeObjThree } from './Data';
+import { homeObjects } from '../../../store/Data';
 
 function SignUp() {
   return (
     <>
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
+      {homeObjects.map((obj) => {
+        if (obj.title === "homeObjOne" || obj.title === "homeObjThree") {
+          return <HeroSection {...obj} />
+        }
+      })}
     </>
   );
 }

@@ -1,4 +1,5 @@
-export const homeObjOne = {
+export const homeObjects = [{
+  title: "homeObjOne",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -10,9 +11,9 @@ export const homeObjOne = {
   imgStart: '',
   img: 'images/pic4.png',
   alt: 'Credit Card'
-};
-
-export const homeObjTwo = {
+},
+{
+  title: "homeObjTwo",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -24,9 +25,9 @@ export const homeObjTwo = {
   imgStart: '',
   img: 'images/pic5.png',
   alt: 'Vault'
-};
-
-export const homeObjThree = {
+},
+{
+  title: "homeObjThree",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -38,9 +39,9 @@ export const homeObjThree = {
   imgStart: 'start',
   img: 'images/svg-7.svg',
   alt: 'Vault'
-};
-
-export const homeObjFour = {
+},
+{
+  title: "homeObjFour",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -52,4 +53,4 @@ export const homeObjFour = {
   imgStart: 'start',
   img: 'images/svg-8.svg',
   alt: 'Vault'
-};
+}]

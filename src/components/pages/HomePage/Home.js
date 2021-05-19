@@ -1,18 +1,17 @@
 import React from 'react'
 import Pricing from '../../Pricing';
 import HeroSection from '../../HeroSection'
-import {homeObjTwo, homeObjFour, homeObjOne, homeObjThree} from './Data';
+import { homeObjects } from '../../../store/Data';
 
 function Home() {
-    return (
-        <>
-          <HeroSection {...homeObjOne} /> 
-          <HeroSection {...homeObjThree} /> 
-          <HeroSection {...homeObjTwo} /> 
-          <Pricing/>
-          <HeroSection {...homeObjFour} /> 
-        </>
-    );
+  return (
+    <>
+      {homeObjects.map((obj) => {
+          return <HeroSection {...obj} />
+      })}
+      <Pricing />
+    </>
+  );
 }
 
 export default Home

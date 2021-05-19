@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import './HeroSection.css';
 
 function HeroSection({
+    title,
     lightBg,
     topLine,
     lightText,

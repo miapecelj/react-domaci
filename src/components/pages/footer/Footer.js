@@ -21,12 +21,15 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button onClick={subscribeHandler} buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
     </div>
   );
+}
+const subscribeHandler = () => {
+  alert("Succesfully subscribed!");
 }
 
 export default Footer;

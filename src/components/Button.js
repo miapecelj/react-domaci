@@ -22,7 +22,7 @@ export const Button = ({
     buttonColor : null;
     
 return (
-    <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onClick={onclick}type={type}>{children}</button>
+    <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onClick={onClick} type={type}>{children}</button>
 )
 
 }
