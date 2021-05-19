@@ -6,7 +6,6 @@ import Services from "./components/pages/Services/Services";
 import Products from "./components/pages/Products/Products";
 import SignUp from "./components/pages/SignUp/SignUp";
 import Navbar from "./components/Navbar";
-import { FaServicestack } from "react-icons/fa";
 
 function App() {
   return (

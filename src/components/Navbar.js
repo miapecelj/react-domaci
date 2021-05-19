@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FcIdea } from "react-icons/fc";
+import { FcAdvance } from "react-icons/fc";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./Button";
 import './Navbar.css';
@@ -29,8 +29,8 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <FcIdea className="navbar-icon" />
-            INTERNET
+            <FcAdvance className="navbar-icon" />
+            WiFLy
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
